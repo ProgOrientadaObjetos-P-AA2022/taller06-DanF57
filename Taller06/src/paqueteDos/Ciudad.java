@@ -14,20 +14,20 @@ public class Ciudad {
         provincia = p;
     }
 
-    public String obtenerNombre() {
-        return nombre;
-    }
-
-    public String obtenerProvincia() {
-        return provincia;
-    }
-
     public void establecerNombre(String n) {
         nombre = n;
     }
 
     public void establecerProvincia(String n) {
         provincia = n;
+    }
+
+    public String obtenerNombre() {
+        return nombre;
+    }
+
+    public String obtenerProvincia() {
+        return provincia;
     }
 
 }

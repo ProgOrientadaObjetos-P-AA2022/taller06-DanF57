@@ -23,34 +23,6 @@ public class EntidadHospitalitaria {
         enfermeros = e;
     }
 
-    public String obtenerNombreHospital() {
-        return hospital;
-    }
-
-    public Ciudad obtenerCiudad() {
-        return ciudad;
-    }
-
-    public int obtenerNumeroEspecialidades() {
-        return numeroEspecialidades;
-    }
-
-    public Medico[] obtenerMedicos() {
-        return medicos;
-    }
-
-    public Enfermero[] obtenerEnfermeros() {
-        return enfermeros;
-    }
-
-    public double obtenerSueldo() {
-        return sueldos;
-    }
-
-    public String obtenerDireccion() {
-        return direccion;
-    }
-
     public void establecerNombreHospital(String n) {
         hospital = n;
     }
@@ -82,6 +54,34 @@ public class EntidadHospitalitaria {
 
     public void establecerDireccion(String n) {
         direccion = n;
+    }
+
+    public String obtenerNombreHospital() {
+        return hospital;
+    }
+
+    public Ciudad obtenerCiudad() {
+        return ciudad;
+    }
+
+    public int obtenerNumeroEspecialidades() {
+        return numeroEspecialidades;
+    }
+
+    public Medico[] obtenerMedicos() {
+        return medicos;
+    }
+
+    public Enfermero[] obtenerEnfermeros() {
+        return enfermeros;
+    }
+
+    public double obtenerSueldo() {
+        return sueldos;
+    }
+
+    public String obtenerDireccion() {
+        return direccion;
     }
 
     @Override

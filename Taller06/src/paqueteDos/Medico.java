@@ -16,18 +16,6 @@ public class Medico {
         especialidad = espe;
     }
 
-    public String obtenerNombre() {
-        return nombre;
-    }
-
-    public String obtenerEspecialidad() {
-        return especialidad;
-    }
-
-    public double obtenerSueldo() {
-        return sueldo;
-    }
-
     public void establecerNombre(String n) {
         nombre = n;
     }
@@ -38,6 +26,18 @@ public class Medico {
 
     public void establecerSueldo(double n) {
         sueldo = n;
+    }
+
+    public String obtenerNombre() {
+        return nombre;
+    }
+
+    public String obtenerEspecialidad() {
+        return especialidad;
+    }
+
+    public double obtenerSueldo() {
+        return sueldo;
     }
 
 }

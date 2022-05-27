@@ -18,19 +18,7 @@ public class Enfermero {
         nombre = nom;
         sueldo = suel;
         tipo = t;
-        
-    }
 
-    public String obtenerNombre() {
-        return nombre;
-    }
-
-    public String obtenerTipo() {
-        return tipo;
-    }
-
-    public double obtenerSueldo() {
-        return sueldo;
     }
 
     public void establecerNombre(String n) {
@@ -45,6 +33,16 @@ public class Enfermero {
         sueldo = n;
     }
 
+    public String obtenerNombre() {
+        return nombre;
+    }
+
+    public String obtenerTipo() {
+        return tipo;
+    }
+
+    public double obtenerSueldo() {
+        return sueldo;
+    }
+
 }
-
-
